@@ -1,6 +1,5 @@
 n = int(input())
 mas = list(map(int, input().split()))
-
 for i in range(len(mas)):
     mas0 = mas.copy()
     j = i - 1
@@ -12,3 +11,5 @@ for i in range(len(mas)):
     if mas0 != mas:
         print(" ".join(map(str, mas)))
         mas0 = mas
+print(mas)
+print("end")
