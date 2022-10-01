@@ -1,3 +1,4 @@
+print("Enter n ")
 n = int(input())
 mas = list(map(int, input().split()))
 for i in range(len(mas)):
